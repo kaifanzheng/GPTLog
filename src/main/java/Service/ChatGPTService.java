@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class ChatGPTService {
     private static final String instructionForEdit = "summarize into one sentence";
-    private static final String apiKey = "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";
+    private static final String apiKey = ".";
     public static String EditInputText(String inputText){
         try{
             OpenAiService service = new OpenAiService(apiKey);
